@@ -18,3 +18,7 @@ A paper adopting such metrics for atmospheric fields can be found here : https:/
 In this repository we will also add some algorithms for manifold learning that have been shown to be useful in climate applications, see https://arxiv.org/pdf/2110.03614.pdf 
 
 In this repository we will add new codes, explorations and tests hopefully useful to the climate community for data mining of complex, high-dimensional climate fields from a dynamical system point of view.
+
+# Reference
+
+- Falasca, F. and Bracco, A. Exploring the Climate system through manifold learning (2021) https://arxiv.org/abs/2110.03614
