@@ -3,7 +3,7 @@
 Contacts: Fabrizio Falasca (fabrifalasca@gmail.com)
 
 The climate system is multiscale, high-dimensional and nonlinear. However, spatiotemporal recurrences of the system hint to the presence of low-dimensional manifolds containing the high-dimensional climate trajectory. These lower (than a full state space) objects are commonly referred to as attractors or inertial manfifolds (more in the Introduction section of this amazing thesis https://chaosbook.org/projects/gudorfThesis.pdf and even more in https://chaosbook.org/).
-Climate is a nonlinear, dissipative system and, when trends are removed, we expect its trajectory to live on an attractor. Characterizing geometrical and topological properties of the climate attractor is an useful step for comprehensively characterize, investigate and study spatiotemporal climate fields. Furthermore, correctly resolving the attractor represents a useful step for evaluation of climate model outputs. 
+Climate is a nonlinear, dissipative system and, when trends are removed, we expect its trajectory to live on an attractor. Characterizing geometrical and topological properties of the climate attractor is an useful step for comprehensively characterize, investigate and study spatiotemporal climate fields. Furthermore, correctly resolving the attractor represents a useful step for evaluation of climate model outputs. Here we collect some data mining algorithms and methods that we found useful in our own research.
 
 ****** This readme and repository are under construction.****** 
 
