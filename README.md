@@ -1,6 +1,6 @@
 # climate-and-dynamical-systems
 
-The climate system is multiscale, high-dimensional and nonlinear. However, spatiotemporal recurrences of the system hint to the presence of low-dimensional manifolds containing the high-dimensional climate trajectory. These lower (than a full state space) objects are commonly referred to as attractors or intertial manfifolds (i.e., the Introduction section https://chaosbook.org/projects/gudorfThesis.pdf).
+The climate system is multiscale, high-dimensional and nonlinear. However, spatiotemporal recurrences of the system hint to the presence of low-dimensional manifolds containing the high-dimensional climate trajectory. These lower (than a full state space) objects are commonly referred to as attractors or intertial manfifolds (more on the Introduction section of this amazing thesis https://chaosbook.org/projects/gudorfThesis.pdf).
 Climate is a nonlinear, dissipative system and, if trends are removed, we expect is trajectory to live on an attractor. Characterizing geometrical and topological properties of the climate attractor is an useful step for comprehensively characterize, investigate and study spatiotemporal climate fields. Furthermore, correctly resolving the attractor represents a useful step for evaluation of climate model outputs. 
 
 ****** This readme and repository are under construction. ****** 
