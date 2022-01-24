@@ -6,19 +6,29 @@ Contacts: Fabrizio Falasca (fabrifalasca@gmail.com)
 
 ## Summary
 
-The climate system is multiscale, high-dimensional and nonlinear. However, spatiotemporal recurrences of the system hint to the presence of low-dimensional manifolds containing the high-dimensional climate trajectory. These lower (than a full state space) objects are commonly referred to as attractors or inertial manfifolds (more in the Introduction section of this amazing thesis https://chaosbook.org/projects/gudorfThesis.pdf and even more in https://chaosbook.org/).
-Climate is a nonlinear, dissipative system and, when trends are removed, we expect its trajectory to live on an attractor. Characterizing geometrical and topological properties of the climate attractor is an useful step for comprehensively characterize, investigate and study spatiotemporal climate fields. Furthermore, correctly resolving the attractor represents a useful step for evaluation of climate model outputs. Here we collect some data mining algorithms and methods that we found useful in our own research.
+The climate system is multiscale, high-dimensional and nonlinear. However, spatiotemporal recurrences of the system hint to the presence of low-dimensional manifolds containing the high-dimensional climate trajectory. These objects are commonly referred to as "intertial manifolds" or "attractors". Lots of pointers on this can be found in this thesis https://chaosbook.org/projects/gudorfThesis.pdf and in ChaosBook https://chaosbook.org/.
 
-For now in ./local_dimension_and_persistence you will find two examples with the local dimension and stability metrics proposed by Valerio Lucarini, Davide Faranda &  friends (see https://arxiv.org/pdf/1605.07006.pdf). The two metrics quantify instaneous properties of high dimensional trajectories via the local dimension and stability. Lots of points to the literature can be found here: https://arxiv.org/pdf/2110.03614.pdf . The metrics are showcased for the Lorenz system and for surface temperature in tropical Pacific ocean.
-For a more insightful analysis of the Lorenz system using the local dimension and stability metrics, please give a look at the supplemental material of Davide's paper here: https://www.nature.com/articles/srep41278 
-They run the system for way more time steps than we do and are able to recover the classical estimates of the average attractor dimension. In this notebook, we run it for way less time steps: the main point here is mainly to showcase these indicators.
+Characterizing geometrical and topological properties of the climate attractor is an useful step for comprehensively characterize, investigate and study spatiotemporal climate fields. Furthermore, correctly resolving the attractor represents a useful step for evaluation of climate model outputs. Here we collect some data mining algorithms and methods that we found useful in our own research.
 
-A paper adopting such metrics for atmospheric fields can be found here : https://www.nature.com/articles/srep41278 . A new paper applying the local dimension metric to ocean flows has been recently accepted in GRL and will be posted soon.
+# Folder local_dimension_and_persistence
 
-In this repository we will also add some algorithms for manifold learning that have been shown to be useful in climate applications, see https://arxiv.org/pdf/2110.03614.pdf 
+Metrics to compute local (instanteneous) properties of the attractor: local dimension and stability (or persistence). These metrics have been developed at the interface of Extreme Value Theory (EVT) and dynamical systems. Reference book: see https://arxiv.org/pdf/1605.07006.pdf 
+Among the many weather/climate applications see this: https://www.nature.com/articles/srep41278 
+
+Here you find an application of these metrics for (a) the Lorenz System and (b) weekly temperature anomalies in the Pacific (notice that these metrics allow to study the system by looking at more than one variable at a time as shown in https://arxiv.org/pdf/2110.03614.pdf ).
+
+NOTE: the metrics shown here have been downloaded from Yoann Robin github https://github.com/yrobink/CDSK (Thanks Yoann).
+
+# Folder Manifold_learning
+
+TO ADD
+
+Collection of some manifold learning algorithm we found useful to investigate high-dimensional climate dynamics through low-dimensional, nonlinear projections.
 
 In this repository we will add new codes, explorations and tests hopefully useful to the climate community for data mining of complex, high-dimensional climate fields from a dynamical system point of view.
 
 # Reference
 
+- ChaosBook https://chaosbook.org/
+- Extremes and recurrences in dynamical systems https://arxiv.org/pdf/1605.07006.pdf 
 - Falasca, F. and Bracco, A. Exploring the Climate system through manifold learning (2021) https://arxiv.org/abs/2110.03614
