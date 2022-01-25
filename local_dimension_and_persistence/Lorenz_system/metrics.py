@@ -5,6 +5,8 @@ import scipy.spatial.distance as ssd
 import sklearn.metrics.pairwise as skmp
 import multiprocessing as mp
 
+# From Yoann Robin:  https://github.com/yrobink/CDSK/tree/master/python/CDSK
+
 ###########
 ## Class ##
 ###########
