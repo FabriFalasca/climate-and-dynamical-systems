@@ -7,6 +7,6 @@ Two example where we run the local dimension and persistence metrics proposed by
 - Local stability/persisteence: it is bounded from 0 to 1. Very low values of the stability metrics implies that the trajectory persists more in the neighborhood of a state point (and opposite in case of high values of stability).
 
 First example: Lorenz_system. 
-Here we simply run the metrics to quantify each state of the Lorenz system in chaotic regime. We do not integrate the system so long in time...the notebook is just there in order to showcase such metrics with a familiar example.
+Here we simply run the metrics to quantify each state of the Lorenz system in chaotic regime. We do not integrate the system so long in time...the notebook is just there in order to showcase such metrics with a familiar example. We also add a simple Mathematica Notebook to run the local dimension metric.
 
 Second example: temperature in the tropical Pacific sector in the last 40 years. We use daily data from ERA5 reanalysis.
