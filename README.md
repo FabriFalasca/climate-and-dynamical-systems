@@ -31,4 +31,4 @@ In this repository we will add new codes, explorations and tests hopefully usefu
 
 - ChaosBook https://chaosbook.org/
 - Extremes and recurrences in dynamical systems https://arxiv.org/pdf/1605.07006.pdf 
-- Falasca, F. and Bracco, A. Exploring the Climate system through manifold learning (2021) https://arxiv.org/abs/2110.03614
+- Falasca, F. and Bracco, A. Exploring the Climate system through manifold learning (2021) [https://arxiv.org/abs/2110.03614](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.12.021054)
