@@ -2,8 +2,6 @@
 
 Contacts: Fabrizio Falasca (fabrifalasca@gmail.com)
 
-****** This readme and repository are under construction ****** 
-
 ## Summary
 
 The climate system is multiscale, high-dimensional and nonlinear. However, spatiotemporal recurrences of the system hint to the presence of low-dimensional manifolds containing the high-dimensional climate trajectory. These objects are commonly referred to as "intertial manifolds" or "attractors". Lots of pointers on this can be found in this thesis https://chaosbook.org/projects/gudorfThesis.pdf and in ChaosBook https://chaosbook.org/.
